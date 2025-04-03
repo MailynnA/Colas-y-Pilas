@@ -1,0 +1,39 @@
+Explicación códigos:	
+
+|°° Repositorio Arrays
+
+1.	“Arrays Musica”
+
+El código crea un arreglo de géneros musicales, agrega un nuevo género, elimina uno específico, modifica otro y extrae una parte del arreglo. Luego imprime los cambios en cada paso.
+
+2.	“Eliminar” 
+
+El código define un arreglo de géneros musicales, agrega "Pop latino" al final, e imprime el arreglo. Luego busca "Rock" en el arreglo, lo elimina si existe y vuelve a imprimir el resultado.
+
+3.	“Extraer”
+
+El código crea un arreglo de géneros musicales, agrega "Pop latino", modifica "Pop" por "R&B" y "Metal" por "Rap", e imprime los cambios. Luego, extrae dos elementos desde la posición 1 y los imprime.  
+
+
+|°° Repositorio Arrays #2
+1.	“CombinarArray.php”
+
+El código define dos arreglos asociativos ($datos1 y $datos2) con información de una persona. Luego, usa la función array_merge() para combinarlos en un solo arreglo ($datosCombinados). Finalmente, imprime el arreglo resultante con print_r(), mostrando todos los datos en un solo conjunto.
+
+
+
+2.	“OrdenarArray.php”
+
+El código crea un arreglo asociativo $edades con nombres como claves y edades como valores. Luego, lo ordena de forma ascendente según las edades con asort().
+Después, usa array_filter() para filtrar solo las edades mayores o iguales a 18, almacenándolas en $EdadesFi. Finalmente, imprime ambos arreglos con print_r().
+
+
+|°° Repositorio Pilas y Colas
+
+1.	”Colas.php”
+
+El código es un ejemplo de colas y crea un arreglo vacío $cola y agrega varios elementos con array_push(), simulando una fila de clientes. Luego, usa array_shift() para extraer y eliminar el primer elemento del arreglo, almacenándolo en $cliente. Finalmente, muestra un mensaje con el primer cliente en la cola.
+
+2.	“Pilas.php”
+
+El código es un ejemplo de Pilas, crea un arreglo vacío $pila y agrega varios elementos con array_push(), simulando una estructura de pila (LIFO: Last In, First Out). Luego, usa array_pop() para extraer y eliminar el último elemento agregado, almacenándolo en $elemento. Finalmente, muestra un mensaje con el último elemento ingresado en la pila.
